@@ -1,0 +1,14 @@
+Total number of packets
+Total number of received packets
+Total number of sent packets
+The sum of all packet bytes
+The sum of all received packet bytes
+The sum of all sent packet bytes
+The sum of all payload bytes
+The sum of all received payload bytes
+The sum of all sent payload bytes
+Mean inter-arrival time between received packets
+Variance of inter-arrival time between received packets
+Total number of packets with ACK flag set
+Total number of packets with PSH flag set
+Total number of packets with RST flag set
