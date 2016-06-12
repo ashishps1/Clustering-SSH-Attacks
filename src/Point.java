@@ -14,11 +14,11 @@ class Point {
 	int getDimension(){
 		return this.dimension;
 	}
-	
+
 	double[] getPosition(){
 		return pos.clone();
 	}
-	
+
 	public static double euclideanDistance(Point p1, Point p2){
 		if(p1.pos.length != p2.pos.length)
 			return -1.0;
@@ -31,7 +31,7 @@ class Point {
 		}
 		return Math.sqrt(sum);
 	}
-	
+
 	public static double squareDistance(Point p1, Point p2){
 		if(p1.pos.length != p2.pos.length)
 			return -1.0;
@@ -44,7 +44,7 @@ class Point {
 		}
 		return sum;
 	}
-	
+
 	public boolean equals(Object o){
 		Point p = (Point)o;
 		if(this.dimension != p.dimension)
