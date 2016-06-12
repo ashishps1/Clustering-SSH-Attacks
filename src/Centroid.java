@@ -1,5 +1,3 @@
-package KMeansCluster;
-
 import java.util.ArrayList;
 
 class Centroid extends Point {
